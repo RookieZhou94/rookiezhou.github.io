@@ -1,3 +1,4 @@
+http://rookiezhou.top/极力推荐的博文排版指南/
 http://rookiezhou.top/正则表达式的基本运用/
 http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/
 http://rookiezhou.top/nginx-location-路径基本匹配规则/

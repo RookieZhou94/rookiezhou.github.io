@@ -107,24 +107,18 @@
 
 
 
-<meta name="description" content="首先说一下我对 zookeeper 的学习，在刚开始听的时候觉得很高大上，但又觉得很陌生，也不知道是干嘛的，然后就网上查各种资料开始慢慢对 zookeeper 好像有点感觉了，又好像还是似懂非懂的样子，然后还看到网上都在告诉我们 zookeeper 的安装以及 zookeeper 集群的搭建，又尝试着去搭建了一遍。到最后还是有点晕乎乎的样子，总觉得好像不是很理解，包括网上说的 zookeeper">
+<meta name="description" content="作为程序员来说，养成写博客的习惯真的是一件值得去做的事，尽管刚开始可能没有那么高质量的知识输出，但是不是有这样一句话吗？「知识的输入应转化为输出」，也就是说你应该把你所学到的都转化为输出，只有这样你才能更好的掌握你所学的知识，并且在这个过程中你也会对你所学的知识点进行很好的补充。既然要写博文，是不是刚开始就随便写写呢？当然不是，一篇排版好内容不是很好的博文相比于内容好排版很乱的博文能够让人更乐于看">
 <meta name="keywords" content="Java MySQL Life">
 <meta property="og:type" content="article">
-<meta property="og:title" content="zookeeper 单机模式以及伪集群模式搭建">
-<meta property="og:url" content="http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/index.html">
+<meta property="og:title" content="极力推荐的博文排版指南">
+<meta property="og:url" content="http://rookiezhou.top/极力推荐的博文排版指南/index.html">
 <meta property="og:site_name" content="rookiezhou">
-<meta property="og:description" content="首先说一下我对 zookeeper 的学习，在刚开始听的时候觉得很高大上，但又觉得很陌生，也不知道是干嘛的，然后就网上查各种资料开始慢慢对 zookeeper 好像有点感觉了，又好像还是似懂非懂的样子，然后还看到网上都在告诉我们 zookeeper 的安装以及 zookeeper 集群的搭建，又尝试着去搭建了一遍。到最后还是有点晕乎乎的样子，总觉得好像不是很理解，包括网上说的 zookeeper">
+<meta property="og:description" content="作为程序员来说，养成写博客的习惯真的是一件值得去做的事，尽管刚开始可能没有那么高质量的知识输出，但是不是有这样一句话吗？「知识的输入应转化为输出」，也就是说你应该把你所学到的都转化为输出，只有这样你才能更好的掌握你所学的知识，并且在这个过程中你也会对你所学的知识点进行很好的补充。既然要写博文，是不是刚开始就随便写写呢？当然不是，一篇排版好内容不是很好的博文相比于内容好排版很乱的博文能够让人更乐于看">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/zookeeper%20单机模式以及伪集群模式搭建/zk-start.png">
-<meta property="og:image" content="http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/zookeeper%20单机模式以及伪集群模式搭建/zoo-cli.png">
-<meta property="og:image" content="http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/zookeeper%20单机模式以及伪集群模式搭建/zoo1-start.png">
-<meta property="og:image" content="http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/zookeeper%20单机模式以及伪集群模式搭建/zoo2-start.png">
-<meta property="og:image" content="http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/zookeeper%20单机模式以及伪集群模式搭建/zoo-client.png">
-<meta property="og:updated_time" content="2018-07-23T13:43:02.325Z">
+<meta property="og:updated_time" content="2018-07-23T15:34:51.017Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="zookeeper 单机模式以及伪集群模式搭建">
-<meta name="twitter:description" content="首先说一下我对 zookeeper 的学习，在刚开始听的时候觉得很高大上，但又觉得很陌生，也不知道是干嘛的，然后就网上查各种资料开始慢慢对 zookeeper 好像有点感觉了，又好像还是似懂非懂的样子，然后还看到网上都在告诉我们 zookeeper 的安装以及 zookeeper 集群的搭建，又尝试着去搭建了一遍。到最后还是有点晕乎乎的样子，总觉得好像不是很理解，包括网上说的 zookeeper">
-<meta name="twitter:image" content="http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/zookeeper%20单机模式以及伪集群模式搭建/zk-start.png">
+<meta name="twitter:title" content="极力推荐的博文排版指南">
+<meta name="twitter:description" content="作为程序员来说，养成写博客的习惯真的是一件值得去做的事，尽管刚开始可能没有那么高质量的知识输出，但是不是有这样一句话吗？「知识的输入应转化为输出」，也就是说你应该把你所学到的都转化为输出，只有这样你才能更好的掌握你所学的知识，并且在这个过程中你也会对你所学的知识点进行很好的补充。既然要写博文，是不是刚开始就随便写写呢？当然不是，一篇排版好内容不是很好的博文相比于内容好排版很乱的博文能够让人更乐于看">
 
 
 
@@ -154,13 +148,13 @@
 
 
 
-  <link rel="canonical" href="http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/"/>
+  <link rel="canonical" href="http://rookiezhou.top/极力推荐的博文排版指南/"/>
 
 
 
 
 
-  <title>zookeeper 单机模式以及伪集群模式搭建 | rookiezhou</title>
+  <title>极力推荐的博文排版指南 | rookiezhou</title>
   
 
 
@@ -331,7 +325,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/">
+    <link itemprop="mainEntityOfPage" href="http://rookiezhou.top/极力推荐的博文排版指南/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="rookiezhou">
@@ -348,7 +342,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">zookeeper 单机模式以及伪集群模式搭建</h1>
+          <h1 class="post-title" itemprop="name headline">极力推荐的博文排版指南</h1>
         
 
         <div class="post-meta">
@@ -360,8 +354,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-07-16T22:32:57+08:00">
-                2018-07-16
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-07-23T23:32:52+08:00">
+                2018-07-23
               </time>
             
 
@@ -383,8 +377,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/zookeeper/" itemprop="url" rel="index">
-                    <span itemprop="name">zookeeper</span>
+                  <a href="/categories/写作/" itemprop="url" rel="index">
+                    <span itemprop="name">写作</span>
                   </a>
                 </span>
 
@@ -425,40 +419,34 @@
       
 
       
-        <p>首先说一下我对 <code>zookeeper</code> 的学习，在刚开始听的时候觉得很高大上，但又觉得很陌生，也不知道是干嘛的，然后就网上查各种资料开始慢慢对 <code>zookeeper</code> 好像有点感觉了，又好像还是似懂非懂的样子，然后还看到网上都在告诉我们 <code>zookeeper</code> 的安装以及 <code>zookeeper</code> 集群的搭建，又尝试着去搭建了一遍。到最后还是有点晕乎乎的样子，总觉得好像不是很理解，包括网上说的 <code>zookeeper</code> 一些使用场景。</p>
-<p>通过这些过程下来，我有点觉得刚开始既然不是很理解，那么就先不去理解它，不要尝试着钻牛角尖，为何不先试着在实践中动手接触它，感受它，在这之后有点感觉之后我们再去理解 <code>zookeeper</code> 背后的那些原理会不会更好一点呢？当然这只是个人看法，因人而异，如果有类似感觉的不防这样试试。那么接下来我就先说说 <code>zookeeper</code> 的安装以及搭建过程。</p>
-<h2 id="zookeeper-下载解压"><a href="#zookeeper-下载解压" class="headerlink" title="zookeeper 下载解压"></a>zookeeper 下载解压</h2><p>在测试之前先说一下，zookeeper 的运行需要依赖 Java 运行环境，所以先要保证你安装好了 Java 环境。接下来下载 zookeeper 的最新稳定版 <code>zookeeper-3.4.12</code> 进行测试，下载链接如下：</p>
-<p><a href="http://mirrors.shu.edu.cn/apache/zookeeper/stable/zookeeper-3.4.12.tar.gz" target="_blank" rel="noopener">zookeeper-3.4.12 下载链接</a></p>
-<p>由于本人使用的是 Ubuntu 16.04 系统版本，所以下面的测试也是基于该系统下进行测试的，当然在 Window 系统下步骤也是一样的，只是执行的方式不一样而已。将上面下载好的文件进行解压，最好解压到你常用的安装软件目录下，以便后面查找 zookeeper 配置文件的位置，当然如果说你知道你自己所放的位置那也无所谓了，当然我还是比较推荐把我们平常开发中常用的软件单独建一个文件夹保存，这样可以让我们的电脑文件不会显得很乱，后面的查找效率也会高很多。回到正题，下面是 zookeeper 的解压命令：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -xzvf zookeeper-3.4.12.tar.gz -C /home/zhouxh/software/</span><br></pre></td></tr></table></figure>
-<h2 id="zookeeper-单机搭建"><a href="#zookeeper-单机搭建" class="headerlink" title="zookeeper 单机搭建"></a>zookeeper 单机搭建</h2><p>解压好之后，记住你解压之后存放的位置，比如我上面，我存放在 /home/zhouxh/software/ 目录下面，接下来就切到该目录下的 zookeeper-3.4.12 目录下，里面有一个 conf 的目录，继续 cd 到 conf 目录下，这个目录存放的就是 zookeeper 运行时需要的配置文件，这里我们先将里面的 zoo_sample.cfg 文件拷贝一份并且重命名为 zoo.cfg，然后编辑 zoo.cfg 文件，这里我们先不说文件中的各项配置是什么含义，先照着做就可以了，到后面会详细解释，打开 zoo.cfg 文件，在里面修改 dataDir 配置然后再加上 dataLogDir 配置，该文件的全部配置如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"># The number of milliseconds of each tick</span><br><span class="line">tickTime=2000</span><br><span class="line"># The number of ticks that the initial </span><br><span class="line"># synchronization phase can take</span><br><span class="line">initLimit=10</span><br><span class="line"># The number of ticks that can pass between </span><br><span class="line"># sending a request and getting an acknowledgement</span><br><span class="line">syncLimit=5</span><br><span class="line"># the directory where the snapshot is stored.</span><br><span class="line"># do not use /tmp for storage, /tmp here is just </span><br><span class="line"># example sakes.</span><br><span class="line">#dataDir=/tmp/zookeeper</span><br><span class="line">dataDir=/home/zhouxh/software/zookeeper-3.4.12/data</span><br><span class="line">dataLogDir=/home/zhouxh/software/zookeeper-3.4.12/logs</span><br><span class="line"># the port at which the clients will connect</span><br><span class="line">clientPort=2181</span><br><span class="line"># the maximum number of client connections.</span><br><span class="line"># increase this if you need to handle more clients</span><br><span class="line">#maxClientCnxns=60</span><br><span class="line">#</span><br><span class="line"># Be sure to read the maintenance section of the </span><br><span class="line"># administrator guide before turning on autopurge.</span><br><span class="line">#</span><br><span class="line"># http://zookeeper.apache.org/doc/current/zookeeperAdmin.html#sc_maintenance</span><br><span class="line">#</span><br><span class="line"># The number of snapshots to retain in dataDir</span><br><span class="line">#autopurge.snapRetainCount=3</span><br><span class="line"># Purge task interval in hours</span><br><span class="line"># Set to &quot;0&quot; to disable auto purge feature</span><br><span class="line">#autopurge.purgeInterval=1</span><br></pre></td></tr></table></figure></p>
-<p>上面配置文件中修改和添加的这两项配置都有一个路径，也就是刚才解压的 zookeeper 文件所在路径，在 zookeeper 的目录下创建两个文件夹：data 和 logs，创建好之后单机模式的 zookeeper 文件配置就已经配置好了，然后我们就可以运行了，为了运行方便，最好我们把 zookeeper 命令路径配置到环境变量中去，这样我们就不用每次执行都切换到 zookeeper 目录下的 bin 目录中去，如果没配那就到 zookeeper 的 bin 目录下去执行命令，启动命令如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./zkServer.sh start</span><br></pre></td></tr></table></figure></p>
-<p>启动完成之后再执行查看 zookeeper 的运行状态的命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./zkServer.sh status</span><br></pre></td></tr></table></figure></p>
-<p><img src="zookeeper 单机模式以及伪集群模式搭建/zk-start.png" alt="运行结果如下"></p>
-<p>也可以通过客户端命令来连接 zookeeper 服务来判断是否启动成功，如果是 zookeeper 是在本机上那么直接执行以下命令就好：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./zkCli.sh</span><br></pre></td></tr></table></figure>
-<p>如果是跨机器连接的话则需要加参数，-server 后面加上要连的服务 IP 和端口，IP 是你要连的 zookeeper 服务所在机器的 IP，端口就是刚才 zoo.cfg 中的 clientPort=2181 配置的端口。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./zkCli.sh -server 127.0.0.1:2181</span><br></pre></td></tr></table></figure></p>
-<p><img src="zookeeper 单机模式以及伪集群模式搭建/zoo-cli.png" alt="运行结果如下"></p>
-<p>连接成功之后我们就可以对 zookeeper 服务上的节点以及节点中的数据进行增删改查了，这里提一下，zookeeper 中的节点结构类似于 Linux 系统下的文件路径，都是树形结构。到这里单机模式的搭建就已经完了，接下来我们再尝试着搭建 zookeeper 伪集群模式。</p>
-<h2 id="zookeeper-伪集群搭建"><a href="#zookeeper-伪集群搭建" class="headerlink" title="zookeeper 伪集群搭建"></a>zookeeper 伪集群搭建</h2><p>有了之前单机模式下搭建过程，伪集群其实也差不多，之所以说是伪集群，是因为是在同一台电脑上模拟出来的多台服务，这里以三台为例进行模拟搭建，当然如果你条件够宽裕，也可以直接在三台电脑上进行搭建，当然这三台电脑需要互相可访问，因为他们之间需要通信。下面是在单台电脑上搭建伪集群的过程：</p>
-<p>首先我们将之前用到的 zoo.cfg 拷贝三份放在 conf 目录下，分别命名为 zoo1.cfg，zoo2.cfg，zoo3.cfg，然后分别修改这三个文件，下面我先贴出第一个服务 zoo1.cfg 的配置内容：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"># The number of milliseconds of each tick</span><br><span class="line">tickTime=2000</span><br><span class="line"># The number of ticks that the initial </span><br><span class="line"># synchronization phase can take</span><br><span class="line">initLimit=10</span><br><span class="line"># The number of ticks that can pass between </span><br><span class="line"># sending a request and getting an acknowledgement</span><br><span class="line">syncLimit=5</span><br><span class="line"># the directory where the snapshot is stored.</span><br><span class="line"># do not use /tmp for storage, /tmp here is just </span><br><span class="line"># example sakes.</span><br><span class="line">dataDir=/home/zhouxh/software/zookeeper-3.4.12/data1</span><br><span class="line">dataLogDir=/home/zhouxh/software/zookeeper-3.4.12/log1</span><br><span class="line"># the port at which the clients will connect</span><br><span class="line">clientPort=2181</span><br><span class="line"># the maximum number of client connections.</span><br><span class="line"># increase this if you need to handle more clients</span><br><span class="line">#maxClientCnxns=60</span><br><span class="line">#</span><br><span class="line"># Be sure to read the maintenance section of the </span><br><span class="line"># administrator guide before turning on autopurge.</span><br><span class="line">#</span><br><span class="line"># http://zookeeper.apache.org/doc/current/zookeeperAdmin.html#sc_maintenance</span><br><span class="line">#</span><br><span class="line"># The number of snapshots to retain in dataDir</span><br><span class="line">#autopurge.snapRetainCount=3</span><br><span class="line"># Purge task interval in hours</span><br><span class="line"># Set to &quot;0&quot; to disable auto purge feature</span><br><span class="line">#autopurge.purgeInterval=1</span><br><span class="line">server.1=192.168.1.108:2881:3881</span><br><span class="line">server.2=192.168.1.108:2882:3882</span><br><span class="line">server.3=192.168.1.108:2883:3883</span><br></pre></td></tr></table></figure></p>
-<p>其他两个文件只需要修改其中一个客户端端口和两个路径就好，其他的和上面配置内容一致。<br>zoo2.cfg 不同部分配置内容：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">dataDir=/home/zhouxh/software/zookeeper-3.4.12/data2</span><br><span class="line">dataLogDir=/home/zhouxh/software/zookeeper-3.4.12/log2</span><br><span class="line"># the port at which the clients will connect</span><br><span class="line">clientPort=2182</span><br></pre></td></tr></table></figure></p>
-<p>zoo3.cfg 不同部分配置内容：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">dataDir=/home/zhouxh/software/zookeeper-3.4.12/data3</span><br><span class="line">dataLogDir=/home/zhouxh/software/zookeeper-3.4.12/log3</span><br><span class="line"># the port at which the clients will connect</span><br><span class="line">clientPort=2183</span><br></pre></td></tr></table></figure></p>
-<p>看了上面三个文件的配置内容，我们应该能猜到接下来我们还需要在对应路径下创建几个文件夹，分别是：data1，data2，data3 以及 log1，log2，log3，<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">/home/zhouxh/software/zookeeper-3.4.12/data1</span><br><span class="line">/home/zhouxh/software/zookeeper-3.4.12/data2</span><br><span class="line">/home/zhouxh/software/zookeeper-3.4.12/data3</span><br><span class="line"></span><br><span class="line">/home/zhouxh/software/zookeeper-3.4.12/log1</span><br><span class="line">/home/zhouxh/software/zookeeper-3.4.12/log2</span><br><span class="line">/home/zhouxh/software/zookeeper-3.4.12/log3</span><br></pre></td></tr></table></figure></p>
-<p>同时我们还注意到每个配置文件都多了一小部分内容：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">server.1=192.168.1.108:2881:3881</span><br><span class="line">server.2=192.168.1.108:2882:3882</span><br><span class="line">server.3=192.168.1.108:2883:3883</span><br></pre></td></tr></table></figure></p>
-<p>这部分内容中 server 后面的那个数字是区分各个不同服务的，这个数字还需要在我们刚才新建的那三个文件夹 data1，data2，data3 下面分别新建三个文件，文件名为 myid，这个文件就只写入这个数字就好，也就是 data1 目录下的文件 myid 内容为 1，data2 目录下的文件 myid 内容为 2，data3 目录下的文件 myid 内容为 3，当然如果是三台不同的机器的话，就是把刚才创建三份的文件夹以及文件在每台机器上配置一份就好，内容可以不变，端口那些可以自己定，也可以完全按照上面的方式配置。到这里配置部分就结束了，接下来我们就可以测试我们的配置是否正确了。</p>
-<p>首先我们依次将三个 zookeeper 服务分别启动起来，每启动一台查看一下当前启动的 zookeeper 的运行状态，切换到 zookeeper 的 bin 目录下进行启动，启动命令如下：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">./zkServer.sh start ~/software/zookeeper-3.4.12/conf/zoo1.cfg</span><br><span class="line">./zkServer.sh status ~/software/zookeeper-3.4.12/conf/zoo1.cfg</span><br></pre></td></tr></table></figure></p>
-<p>上面将第一台 zookeeper 服务先启动，启动后紧接着查看其运行状态发现会报如下一个错。</p>
-<p><img src="zookeeper 单机模式以及伪集群模式搭建/zoo1-start.png" alt="运行结果如下"></p>
-<p>这是由于其他两台还没启动，所以我们先不管，继续启动另外两台服务<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">./zkServer.sh start ~/software/zookeeper-3.4.12/conf/zoo2.cfg</span><br><span class="line">./zkServer.sh status ~/software/zookeeper-3.4.12/conf/zoo1.cfg</span><br><span class="line"></span><br><span class="line">./zkServer.sh start ~/software/zookeeper-3.4.12/conf/zoo3.cfg</span><br><span class="line">./zkServer.sh status ~/software/zookeeper-3.4.12/conf/zoo3.cfg</span><br></pre></td></tr></table></figure></p>
-<p>不出意外的话，当启动第二台后再查看第一台服务状态时会打印如下信息：</p>
-<p><img src="zookeeper 单机模式以及伪集群模式搭建/zoo2-start.png" alt="运行结果如下"></p>
-<p>这表明我们已经启动成功了，继续启动第三台就好，当三台全部启动成功后说明我们的伪集群搭建成功了。</p>
-<p>我们也可以尝试用 zkCli.sh 命令去连接这个集群看看能不能连上，由于这三台已经是集群模式，我们任意连接其中一台都是一样的，以连接第一台为例：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./zkCli.sh -server 127.0.0.1:2181</span><br></pre></td></tr></table></figure>
-<p>出现如下信息表示连接成功:</p>
-<p><img src="zookeeper 单机模式以及伪集群模式搭建/zoo-client.png" alt="运行结果如下"></p>
-<p>上面就是我们搭建的整个过程，搭建完成后最好回顾一下，如果中间遇到什么问题可以直接网上搜索，肯定能找到的，现在我们只是初步了解了 zookeeper 服务的搭建过程，具体这些配置文件中的含义以及为什么要搭建集群，为什么选择三台进行模拟集群，这样做有什么好处；还有就是 zookeeper 到底应该怎么用，哪些情况下需要用到 zookeeper，下一篇将会详细介绍。</p>
+        <p>作为程序员来说，养成写博客的习惯真的是一件值得去做的事，尽管刚开始可能没有那么高质量的知识输出，但是不是有这样一句话吗？「知识的输入应转化为输出」，也就是说你应该把你所学到的都转化为输出，只有这样你才能更好的掌握你所学的知识，并且在这个过程中你也会对你所学的知识点进行很好的补充。既然要写博文，是不是刚开始就随便写写呢？当然不是，一篇排版好内容不是很好的博文相比于内容好排版很乱的博文能够让人更乐于看下去，尤其是那些对代码有洁癖的程序员我相信你更看不下去，那么以下便是我极力推荐的博客排版指南：</p>
+<h3 id="空格的使用"><a href="#空格的使用" class="headerlink" title="空格的使用"></a>空格的使用</h3><p>「有研究显示，打字的时候不喜欢在中文和英文之间加空格的人，感情路都走得很辛苦，有七成的比例会在 34 岁的时候跟自己不爱的人结婚，而其余三成的人最后只能把遗产留给自己的猫。毕竟爱情跟书写都需要适时地留白。」</p>
+<ol>
+<li><p>中英文之间加空格<br>eg. 相信每个程序员都会去全球最大的同性交友网站 GitHub 上逛逛。</p>
+</li>
+<li><p>中文和数字之间加空格<br>eg. 那些排版很乱的博文估计你连 1 分钟都看不下去。</p>
+</li>
+<li><p>数字和单位之间不加空格<br>eg. 现在的安卓手机运行内存没有 6G 都装不了几个应用了。<br>eg. 今天的气温又超过了 40°。<br>eg. 之前买的基金昨天一天跌了 5%。</p>
+</li>
+<li><p>推荐在链接前后加一个空格<br>eg.  我的公众号和博客名称都是 rookiezhou，搜索 rookiezhou 关注我，点击这里 <a href="http://www.rookiezhou.top" target="_blank" rel="noopener">rookiezhou</a> 访问个人博客。</p>
+</li>
+</ol>
+<h3 id="标点符号的细节"><a href="#标点符号的细节" class="headerlink" title="标点符号的细节"></a>标点符号的细节</h3><ol>
+<li><p>不用为了夸张重复使用标点符号<br>eg. 今年法国夺冠了，华帝刚开始打的一手好牌到最后却变成了一副烂牌，你敢信吗？</p>
+</li>
+<li><p>中文段落中尽量使用中文标点符号<br>eg. 一篇好的博文绝对离不开好的排版，所以这篇博文应该算是好文了吧。</p>
+</li>
+<li><p>推荐将引号换成直角引号<br>eg. 你竟然没看过「Java 编程思想」这本书。</p>
+</li>
+<li><p>推荐引号中还有引号替换成直角双引号<br>eg. 经常有人带着疑惑的目光对我说「你竟然没看过『Java 编程思想』这本书？」</p>
+</li>
+<li><p>完整的英文整句使用英文标点符号<br>eg. 引用乔布斯说的那句话：「Stay hungry, stay foolish.」</p>
+</li>
+</ol>
+<h3 id="专有名词大小写尽量规范"><a href="#专有名词大小写尽量规范" class="headerlink" title="专有名词大小写尽量规范"></a>专有名词大小写尽量规范</h3><p>eg. Java、MySQL 都是后端开发人员必须要会的，当然也要会一些前端的技术，比如说：HTML5、CSS、JavaScript、jQuery。</p>
+<p>还有就是对于一些博文可能存在一篇博文下来就只有一段，看起来很紧凑，如果说在每写完一个知识点隔开一行看起来是不是会更好看些呢，这样一来对于我们从小养成的每一段首行空两格的习惯是不是也可以改了呢，其实你去注意一下那些排版比较好的博文，应该大部分都是这么做的，当然这取决于个人，不喜勿喷。</p>
+<p>参考：</p>
+<p><a href="https://www.jianshu.com/p/538faa30b17d" target="_blank" rel="noopener">https://www.jianshu.com/p/538faa30b17d</a><br><a href="https://github.com/mzlogin/chinese-copywriting-guidelines" target="_blank" rel="noopener">https://github.com/mzlogin/chinese-copywriting-guidelines</a></p>
 
       
     </div>
@@ -493,8 +481,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/nginx-location-路径基本匹配规则/" rel="next" title="nginx location 路径匹配规则">
-                <i class="fa fa-chevron-left"></i> nginx location 路径匹配规则
+              <a href="/正则表达式的基本运用/" rel="next" title="正则表达式的基本运用">
+                <i class="fa fa-chevron-left"></i> 正则表达式的基本运用
               </a>
             
           </div>
@@ -502,10 +490,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/正则表达式的基本运用/" rel="prev" title="正则表达式的基本运用">
-                正则表达式的基本运用 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -649,7 +633,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#zookeeper-下载解压"><span class="nav-number">1.</span> <span class="nav-text">zookeeper 下载解压</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#zookeeper-单机搭建"><span class="nav-number">2.</span> <span class="nav-text">zookeeper 单机搭建</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#zookeeper-伪集群搭建"><span class="nav-number">3.</span> <span class="nav-text">zookeeper 伪集群搭建</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#空格的使用"><span class="nav-number">1.</span> <span class="nav-text">空格的使用</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#标点符号的细节"><span class="nav-number">2.</span> <span class="nav-text">标点符号的细节</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#专有名词大小写尽量规范"><span class="nav-number">3.</span> <span class="nav-text">专有名词大小写尽量规范</span></a></li></ol></div>
             
 
           </div>
