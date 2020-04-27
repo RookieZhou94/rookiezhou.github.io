@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>rookiezhou</title>
+  <title>rookiedev</title>
   
   <subtitle>做好当下每一件事</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://rookiezhou.top/"/>
+  <link href="http://gittab.net/"/>
   <updated>2018-07-23T15:34:51.017Z</updated>
-  <id>http://rookiezhou.top/</id>
+  <id>http://gittab.net/</id>
   
   <author>
-    <name>rookiezhou</name>
+    <name>rookiedev</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>极力推荐的博文排版指南</title>
-    <link href="http://rookiezhou.top/%E6%9E%81%E5%8A%9B%E6%8E%A8%E8%8D%90%E7%9A%84%E5%8D%9A%E6%96%87%E6%8E%92%E7%89%88%E6%8C%87%E5%8D%97/"/>
-    <id>http://rookiezhou.top/极力推荐的博文排版指南/</id>
+    <link href="http://gittab.net/%E6%9E%81%E5%8A%9B%E6%8E%A8%E8%8D%90%E7%9A%84%E5%8D%9A%E6%96%87%E6%8E%92%E7%89%88%E6%8C%87%E5%8D%97/"/>
+    <id>http://gittab.net/极力推荐的博文排版指南/</id>
     <published>2018-07-23T15:32:52.000Z</published>
     <updated>2018-07-23T15:34:51.017Z</updated>
     
@@ -34,15 +34,15 @@
     
     </summary>
     
-      <category term="写作" scheme="http://rookiezhou.top/categories/%E5%86%99%E4%BD%9C/"/>
+      <category term="写作" scheme="http://gittab.net/categories/%E5%86%99%E4%BD%9C/"/>
     
     
   </entry>
   
   <entry>
     <title>正则表达式的基本运用</title>
-    <link href="http://rookiezhou.top/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%94%A8/"/>
-    <id>http://rookiezhou.top/正则表达式的基本运用/</id>
+    <link href="http://gittab.net/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E7%9A%84%E5%9F%BA%E6%9C%AC%E8%BF%90%E7%94%A8/"/>
+    <id>http://gittab.net/正则表达式的基本运用/</id>
     <published>2018-07-18T17:20:57.000Z</published>
     <updated>2018-07-23T13:43:03.049Z</updated>
     
@@ -57,15 +57,15 @@
     
     </summary>
     
-      <category term="正则表达式" scheme="http://rookiezhou.top/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
+      <category term="正则表达式" scheme="http://gittab.net/categories/%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/"/>
     
     
   </entry>
   
   <entry>
     <title>zookeeper 单机模式以及伪集群模式搭建</title>
-    <link href="http://rookiezhou.top/zookeeper-%E5%8D%95%E6%9C%BA%E6%A8%A1%E5%BC%8F%E4%BB%A5%E5%8F%8A%E4%BC%AA%E9%9B%86%E7%BE%A4%E6%A8%A1%E5%BC%8F%E6%90%AD%E5%BB%BA/"/>
-    <id>http://rookiezhou.top/zookeeper-单机模式以及伪集群模式搭建/</id>
+    <link href="http://gittab.net/zookeeper-%E5%8D%95%E6%9C%BA%E6%A8%A1%E5%BC%8F%E4%BB%A5%E5%8F%8A%E4%BC%AA%E9%9B%86%E7%BE%A4%E6%A8%A1%E5%BC%8F%E6%90%AD%E5%BB%BA/"/>
+    <id>http://gittab.net/zookeeper-单机模式以及伪集群模式搭建/</id>
     <published>2018-07-16T14:32:57.000Z</published>
     <updated>2018-07-23T13:43:02.325Z</updated>
     
@@ -80,15 +80,15 @@
     
     </summary>
     
-      <category term="zookeeper" scheme="http://rookiezhou.top/categories/zookeeper/"/>
+      <category term="zookeeper" scheme="http://gittab.net/categories/zookeeper/"/>
     
     
   </entry>
   
   <entry>
     <title>nginx location 路径匹配规则</title>
-    <link href="http://rookiezhou.top/nginx-location-%E8%B7%AF%E5%BE%84%E5%9F%BA%E6%9C%AC%E5%8C%B9%E9%85%8D%E8%A7%84%E5%88%99/"/>
-    <id>http://rookiezhou.top/nginx-location-路径基本匹配规则/</id>
+    <link href="http://gittab.net/nginx-location-%E8%B7%AF%E5%BE%84%E5%9F%BA%E6%9C%AC%E5%8C%B9%E9%85%8D%E8%A7%84%E5%88%99/"/>
+    <id>http://gittab.net/nginx-location-路径基本匹配规则/</id>
     <published>2018-07-10T15:10:20.000Z</published>
     <updated>2018-07-23T13:43:01.673Z</updated>
     
@@ -103,15 +103,15 @@
     
     </summary>
     
-      <category term="nginx" scheme="http://rookiezhou.top/categories/nginx/"/>
+      <category term="nginx" scheme="http://gittab.net/categories/nginx/"/>
     
     
   </entry>
   
   <entry>
     <title>nginx 实现 TCP 代理及其负载均衡之 stream 模块</title>
-    <link href="http://rookiezhou.top/nginx-%E5%AE%9E%E7%8E%B0-TCP-%E4%BB%A3%E7%90%86%E5%8F%8A%E5%85%B6%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E4%B9%8B-stream-%E6%A8%A1%E5%9D%97/"/>
-    <id>http://rookiezhou.top/nginx-实现-TCP-代理及其负载均衡之-stream-模块/</id>
+    <link href="http://gittab.net/nginx-%E5%AE%9E%E7%8E%B0-TCP-%E4%BB%A3%E7%90%86%E5%8F%8A%E5%85%B6%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E4%B9%8B-stream-%E6%A8%A1%E5%9D%97/"/>
+    <id>http://gittab.net/nginx-实现-TCP-代理及其负载均衡之-stream-模块/</id>
     <published>2018-07-04T15:10:05.000Z</published>
     <updated>2018-07-23T13:43:02.269Z</updated>
     
@@ -126,15 +126,15 @@
     
     </summary>
     
-      <category term="nginx" scheme="http://rookiezhou.top/categories/nginx/"/>
+      <category term="nginx" scheme="http://gittab.net/categories/nginx/"/>
     
     
   </entry>
   
   <entry>
     <title>nginx 负载均衡策略之第三方扩展策略</title>
-    <link href="http://rookiezhou.top/nginx-%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E7%AD%96%E7%95%A5%E4%B9%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E6%89%A9%E5%B1%95%E7%AD%96%E7%95%A5/"/>
-    <id>http://rookiezhou.top/nginx-负载均衡策略之第三方扩展策略/</id>
+    <link href="http://gittab.net/nginx-%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E7%AD%96%E7%95%A5%E4%B9%8B%E7%AC%AC%E4%B8%89%E6%96%B9%E6%89%A9%E5%B1%95%E7%AD%96%E7%95%A5/"/>
+    <id>http://gittab.net/nginx-负载均衡策略之第三方扩展策略/</id>
     <published>2018-07-03T14:51:01.000Z</published>
     <updated>2018-07-23T13:43:03.677Z</updated>
     
@@ -150,15 +150,15 @@
     
     </summary>
     
-      <category term="nginx" scheme="http://rookiezhou.top/categories/nginx/"/>
+      <category term="nginx" scheme="http://gittab.net/categories/nginx/"/>
     
     
   </entry>
   
   <entry>
     <title>nginx 负载均衡策略之内置策略</title>
-    <link href="http://rookiezhou.top/nginx-%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E7%AD%96%E7%95%A5%E4%B9%8B%E5%86%85%E7%BD%AE%E7%AD%96%E7%95%A5/"/>
-    <id>http://rookiezhou.top/nginx-负载均衡策略之内置策略/</id>
+    <link href="http://gittab.net/nginx-%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1%E7%AD%96%E7%95%A5%E4%B9%8B%E5%86%85%E7%BD%AE%E7%AD%96%E7%95%A5/"/>
+    <id>http://gittab.net/nginx-负载均衡策略之内置策略/</id>
     <published>2018-06-22T15:26:45.000Z</published>
     <updated>2018-07-23T13:43:03.477Z</updated>
     
@@ -173,15 +173,15 @@
     
     </summary>
     
-      <category term="nginx" scheme="http://rookiezhou.top/categories/nginx/"/>
+      <category term="nginx" scheme="http://gittab.net/categories/nginx/"/>
     
     
   </entry>
   
   <entry>
     <title>nginx 的正向代理和反向代理</title>
-    <link href="http://rookiezhou.top/nginx-%E7%9A%84%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%92%8C%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
-    <id>http://rookiezhou.top/nginx-的正向代理和反向代理/</id>
+    <link href="http://gittab.net/nginx-%E7%9A%84%E6%AD%A3%E5%90%91%E4%BB%A3%E7%90%86%E5%92%8C%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
+    <id>http://gittab.net/nginx-的正向代理和反向代理/</id>
     <published>2018-06-20T16:38:39.000Z</published>
     <updated>2018-07-23T13:43:03.713Z</updated>
     
@@ -196,15 +196,15 @@
     
     </summary>
     
-      <category term="nginx" scheme="http://rookiezhou.top/categories/nginx/"/>
+      <category term="nginx" scheme="http://gittab.net/categories/nginx/"/>
     
     
   </entry>
   
   <entry>
     <title>Java 8 特性--Stream 流</title>
-    <link href="http://rookiezhou.top/Java-8-%E7%89%B9%E6%80%A7-Stream-%E6%B5%81/"/>
-    <id>http://rookiezhou.top/Java-8-特性-Stream-流/</id>
+    <link href="http://gittab.net/Java-8-%E7%89%B9%E6%80%A7-Stream-%E6%B5%81/"/>
+    <id>http://gittab.net/Java-8-特性-Stream-流/</id>
     <published>2018-06-12T17:06:02.000Z</published>
     <updated>2018-07-23T13:43:03.561Z</updated>
     
@@ -219,15 +219,15 @@
     
     </summary>
     
-      <category term="Java 8" scheme="http://rookiezhou.top/categories/Java-8/"/>
+      <category term="Java 8" scheme="http://gittab.net/categories/Java-8/"/>
     
     
   </entry>
   
   <entry>
     <title>Java 8 特性--Optional 类、时间 API 以及 Base64 编解码</title>
-    <link href="http://rookiezhou.top/Java-8-%E7%89%B9%E6%80%A7-Optional-%E7%B1%BB%E3%80%81%E6%97%B6%E9%97%B4-API-%E4%BB%A5%E5%8F%8A-Base64-%E7%BC%96%E8%A7%A3%E7%A0%81/"/>
-    <id>http://rookiezhou.top/Java-8-特性-Optional-类、时间-API-以及-Base64-编解码/</id>
+    <link href="http://gittab.net/Java-8-%E7%89%B9%E6%80%A7-Optional-%E7%B1%BB%E3%80%81%E6%97%B6%E9%97%B4-API-%E4%BB%A5%E5%8F%8A-Base64-%E7%BC%96%E8%A7%A3%E7%A0%81/"/>
+    <id>http://gittab.net/Java-8-特性-Optional-类、时间-API-以及-Base64-编解码/</id>
     <published>2018-06-12T15:07:35.000Z</published>
     <updated>2018-07-23T13:43:02.801Z</updated>
     
@@ -242,15 +242,15 @@
     
     </summary>
     
-      <category term="Java 8" scheme="http://rookiezhou.top/categories/Java-8/"/>
+      <category term="Java 8" scheme="http://gittab.net/categories/Java-8/"/>
     
     
   </entry>
   
   <entry>
     <title>Java 8 特性--Lambda 表达式、接口默认方法以及方法引用</title>
-    <link href="http://rookiezhou.top/Java-8-%E7%89%B9%E6%80%A7-Lambda-%E8%A1%A8%E8%BE%BE%E5%BC%8F%E3%80%81%E6%8E%A5%E5%8F%A3%E9%BB%98%E8%AE%A4%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8A%E6%96%B9%E6%B3%95%E5%BC%95%E7%94%A8/"/>
-    <id>http://rookiezhou.top/Java-8-特性-Lambda-表达式、接口默认方法以及方法引用/</id>
+    <link href="http://gittab.net/Java-8-%E7%89%B9%E6%80%A7-Lambda-%E8%A1%A8%E8%BE%BE%E5%BC%8F%E3%80%81%E6%8E%A5%E5%8F%A3%E9%BB%98%E8%AE%A4%E6%96%B9%E6%B3%95%E4%BB%A5%E5%8F%8A%E6%96%B9%E6%B3%95%E5%BC%95%E7%94%A8/"/>
+    <id>http://gittab.net/Java-8-特性-Lambda-表达式、接口默认方法以及方法引用/</id>
     <published>2018-05-30T16:37:41.000Z</published>
     <updated>2018-07-23T13:43:03.641Z</updated>
     
@@ -266,15 +266,15 @@
     
     </summary>
     
-      <category term="Java 8" scheme="http://rookiezhou.top/categories/Java-8/"/>
+      <category term="Java 8" scheme="http://gittab.net/categories/Java-8/"/>
     
     
   </entry>
   
   <entry>
     <title>Linux 系统下 AES 解密报错问题</title>
-    <link href="http://rookiezhou.top/Linux-%E7%B3%BB%E7%BB%9F%E4%B8%8B-AES-%E8%A7%A3%E5%AF%86%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/"/>
-    <id>http://rookiezhou.top/Linux-系统下-AES-解密报错问题/</id>
+    <link href="http://gittab.net/Linux-%E7%B3%BB%E7%BB%9F%E4%B8%8B-AES-%E8%A7%A3%E5%AF%86%E6%8A%A5%E9%94%99%E9%97%AE%E9%A2%98/"/>
+    <id>http://gittab.net/Linux-系统下-AES-解密报错问题/</id>
     <published>2018-05-28T15:03:31.000Z</published>
     <updated>2018-07-23T13:43:02.513Z</updated>
     
@@ -289,15 +289,15 @@
     
     </summary>
     
-      <category term="Java" scheme="http://rookiezhou.top/categories/Java/"/>
+      <category term="Java" scheme="http://gittab.net/categories/Java/"/>
     
     
   </entry>
   
   <entry>
     <title>Effective Java - 创建和销毁对象</title>
-    <link href="http://rookiezhou.top/Effective-Java-%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/"/>
-    <id>http://rookiezhou.top/Effective-Java-创建和销毁对象/</id>
+    <link href="http://gittab.net/Effective-Java-%E5%88%9B%E5%BB%BA%E5%92%8C%E9%94%80%E6%AF%81%E5%AF%B9%E8%B1%A1/"/>
+    <id>http://gittab.net/Effective-Java-创建和销毁对象/</id>
     <published>2018-05-23T15:04:37.000Z</published>
     <updated>2018-07-23T13:43:02.653Z</updated>
     
@@ -312,15 +312,15 @@
     
     </summary>
     
-      <category term="Effective Java" scheme="http://rookiezhou.top/categories/Effective-Java/"/>
+      <category term="Effective Java" scheme="http://gittab.net/categories/Effective-Java/"/>
     
     
   </entry>
   
   <entry>
     <title>Linux 系统下远程连接和远程拷贝命令</title>
-    <link href="http://rookiezhou.top/Linux-%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E5%92%8C%E8%BF%9C%E7%A8%8B%E6%8B%B7%E8%B4%9D%E5%91%BD%E4%BB%A4/"/>
-    <id>http://rookiezhou.top/Linux-系统下远程连接和远程拷贝命令/</id>
+    <link href="http://gittab.net/Linux-%E7%B3%BB%E7%BB%9F%E4%B8%8B%E8%BF%9C%E7%A8%8B%E8%BF%9E%E6%8E%A5%E5%92%8C%E8%BF%9C%E7%A8%8B%E6%8B%B7%E8%B4%9D%E5%91%BD%E4%BB%A4/"/>
+    <id>http://gittab.net/Linux-系统下远程连接和远程拷贝命令/</id>
     <published>2018-05-09T16:45:15.000Z</published>
     <updated>2018-07-23T13:43:02.973Z</updated>
     
@@ -336,15 +336,15 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://rookiezhou.top/categories/Linux/"/>
+      <category term="Linux" scheme="http://gittab.net/categories/Linux/"/>
     
     
   </entry>
   
   <entry>
     <title>Ubuntu 系统安装以及一些开发中必要的安装配置</title>
-    <link href="http://rookiezhou.top/Ubuntu-%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E4%B8%80%E4%BA%9B%E5%BC%80%E5%8F%91%E4%B8%AD%E5%BF%85%E8%A6%81%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
-    <id>http://rookiezhou.top/Ubuntu-系统安装以及一些开发中必要的安装配置/</id>
+    <link href="http://gittab.net/Ubuntu-%E7%B3%BB%E7%BB%9F%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E4%B8%80%E4%BA%9B%E5%BC%80%E5%8F%91%E4%B8%AD%E5%BF%85%E8%A6%81%E7%9A%84%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE/"/>
+    <id>http://gittab.net/Ubuntu-系统安装以及一些开发中必要的安装配置/</id>
     <published>2018-05-07T15:46:03.000Z</published>
     <updated>2018-07-23T13:43:02.465Z</updated>
     
@@ -359,15 +359,15 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://rookiezhou.top/categories/Linux/"/>
+      <category term="Linux" scheme="http://gittab.net/categories/Linux/"/>
     
     
   </entry>
   
   <entry>
     <title>Linux 系统下的软链接和硬链接</title>
-    <link href="http://rookiezhou.top/Linux-%E7%B3%BB%E7%BB%9F%E4%B8%8B%E7%9A%84%E8%BD%AF%E9%93%BE%E6%8E%A5%E5%92%8C%E7%A1%AC%E9%93%BE%E6%8E%A5/"/>
-    <id>http://rookiezhou.top/Linux-系统下的软链接和硬链接/</id>
+    <link href="http://gittab.net/Linux-%E7%B3%BB%E7%BB%9F%E4%B8%8B%E7%9A%84%E8%BD%AF%E9%93%BE%E6%8E%A5%E5%92%8C%E7%A1%AC%E9%93%BE%E6%8E%A5/"/>
+    <id>http://gittab.net/Linux-系统下的软链接和硬链接/</id>
     <published>2018-04-25T15:41:50.000Z</published>
     <updated>2018-07-23T13:43:02.921Z</updated>
     
@@ -383,15 +383,15 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://rookiezhou.top/categories/Linux/"/>
+      <category term="Linux" scheme="http://gittab.net/categories/Linux/"/>
     
     
   </entry>
   
   <entry>
     <title>Ubuntu 下 MySQL 安装以及配置远程可访问</title>
-    <link href="http://rookiezhou.top/Ubuntu-%E4%B8%8B-MySQL-%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AE%E5%8F%AF%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE/"/>
-    <id>http://rookiezhou.top/Ubuntu-下-MySQL-安装以及配置可远程访问/</id>
+    <link href="http://gittab.net/Ubuntu-%E4%B8%8B-MySQL-%E5%AE%89%E8%A3%85%E4%BB%A5%E5%8F%8A%E9%85%8D%E7%BD%AE%E5%8F%AF%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AE/"/>
+    <id>http://gittab.net/Ubuntu-下-MySQL-安装以及配置可远程访问/</id>
     <published>2018-04-23T14:15:09.000Z</published>
     <updated>2018-07-23T13:43:03.525Z</updated>
     
@@ -407,15 +407,15 @@
     
     </summary>
     
-      <category term="MySQL" scheme="http://rookiezhou.top/categories/MySQL/"/>
+      <category term="MySQL" scheme="http://gittab.net/categories/MySQL/"/>
     
     
   </entry>
   
   <entry>
     <title>Ubuntu 执行命令时报错 unable to resolve host</title>
-    <link href="http://rookiezhou.top/Ubuntu-%E6%89%A7%E8%A1%8C%E5%91%BD%E4%BB%A4%E6%97%B6%E6%8A%A5%E9%94%99-unable-to-resolve-host/"/>
-    <id>http://rookiezhou.top/Ubuntu-执行命令时报错-unable-to-resolve-host/</id>
+    <link href="http://gittab.net/Ubuntu-%E6%89%A7%E8%A1%8C%E5%91%BD%E4%BB%A4%E6%97%B6%E6%8A%A5%E9%94%99-unable-to-resolve-host/"/>
+    <id>http://gittab.net/Ubuntu-执行命令时报错-unable-to-resolve-host/</id>
     <published>2018-04-08T14:26:03.000Z</published>
     <updated>2018-07-23T13:43:02.693Z</updated>
     
@@ -430,15 +430,15 @@
     
     </summary>
     
-      <category term="Linux" scheme="http://rookiezhou.top/categories/Linux/"/>
+      <category term="Linux" scheme="http://gittab.net/categories/Linux/"/>
     
     
   </entry>
   
   <entry>
     <title>Java 面试系列——基础篇(二)</title>
-    <link href="http://rookiezhou.top/Java-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AF%87-%E4%BA%8C/"/>
-    <id>http://rookiezhou.top/Java-面试系列——基础篇-二/</id>
+    <link href="http://gittab.net/Java-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AF%87-%E4%BA%8C/"/>
+    <id>http://gittab.net/Java-面试系列——基础篇-二/</id>
     <published>2018-04-01T10:56:13.000Z</published>
     <updated>2018-07-23T13:43:02.233Z</updated>
     
@@ -453,15 +453,15 @@
     
     </summary>
     
-      <category term="面试系列" scheme="http://rookiezhou.top/categories/%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97/"/>
+      <category term="面试系列" scheme="http://gittab.net/categories/%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97/"/>
     
     
   </entry>
   
   <entry>
     <title>Java 面试系列——基础篇(一)</title>
-    <link href="http://rookiezhou.top/Java-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AF%87-%E4%B8%80/"/>
-    <id>http://rookiezhou.top/Java-面试系列——基础篇-一/</id>
+    <link href="http://gittab.net/Java-%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97%E2%80%94%E2%80%94%E5%9F%BA%E7%A1%80%E7%AF%87-%E4%B8%80/"/>
+    <id>http://gittab.net/Java-面试系列——基础篇-一/</id>
     <published>2018-03-29T15:18:01.000Z</published>
     <updated>2018-07-23T13:43:04.441Z</updated>
     
@@ -476,7 +476,7 @@
     
     </summary>
     
-      <category term="面试系列" scheme="http://rookiezhou.top/categories/%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97/"/>
+      <category term="面试系列" scheme="http://gittab.net/categories/%E9%9D%A2%E8%AF%95%E7%B3%BB%E5%88%97/"/>
     
     
   </entry>
