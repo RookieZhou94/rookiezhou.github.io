@@ -1,3 +1,4 @@
+http://gittab.net/最新博客地址：www-gittab-net/
 http://gittab.net/极力推荐的博文排版指南/
 http://gittab.net/正则表达式的基本运用/
 http://gittab.net/zookeeper-单机模式以及伪集群模式搭建/
